@@ -11,6 +11,7 @@ Esta é uma aplicação de controle de tarefas no estilo to-do list, que contém
 - ReactJS
 - Typescript
 - CSS Modules
+- HTML
 
 ## 🛋️ Coneitos utilizados
 - Estados
