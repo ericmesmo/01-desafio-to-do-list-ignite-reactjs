@@ -1,0 +1,62 @@
+.itemTask {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 12px;
+
+    height: 72px;
+
+    background: var(--gray-500);
+
+    border: 1px solid var(--gray-400);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.itemTask > p {
+    width: 100%;
+}
+
+.taskDone {
+    text-decoration-line: line-through;
+    color: var(--gray-300);
+}
+
+.deleteButton {
+    background-color: var(--gray-500);
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkboxRoot {
+    background-color: var(--gray-500);
+
+    width: 24px;
+    height: 24px;
+
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+    border: 2px solid var(--blue);
+}
+
+.checkboxIndicator {
+    color: var(--gray-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.checkboxRoot[data-state="checked"] {
+    background-color: var(--purple-dark);
+    border: 2px solid var(--purple-dark);
+}
